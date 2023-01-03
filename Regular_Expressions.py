@@ -42,3 +42,15 @@
 # Match Email
 # [A-z0-9\.]+@[A-z0-9]+\.[A-z]+
 # ^[A-z0-9\.]+@[A-z0-9]+\.(com|net|org|info)$
+
+# ----------------------------------------------------
+# -- Regular Expressions => Logical Or And Escaping --
+# ----------------------------------------------------
+# |	  Or
+# \	  Escape Special Characters
+# ()  Separate Groups
+# -----------------------------
+
+# (\d-|\d\)|\d>) (\w+)
+# (\d{3}) (\d{4}) (\d{3}|\(\d{3}\))
+# ^(https?://)(www\.)?(\w+)\.(net|org|com|info|me)$
